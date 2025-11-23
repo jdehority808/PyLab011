@@ -6,7 +6,7 @@ class MindMapLeaf(object):
     @staticmethod
     def get_shape_representation(shape:str):
         shape_d = {
-            "circle": "((({)))",
+            "circle": "((({})))",
             "oval": "({})",
             "square": "[{}]",
             "cloud": "){}(",
